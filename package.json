@@ -1,0 +1,25 @@
+{
+  "name": "pig-Latin-Translator",
+  "version": "1.0.0",
+  "description": "# Pig Latin Translator A new alien species has moved to earth and they only speak pig-latin! The president has called you and says that they need your help!",
+  "main": "index.js",
+  "scripts": {
+    "test" : "mocha 'lib/*.spec.js'",
+    "watch" : "mocha -w 'lib/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ynikki/piglatintranslator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ynikki/piglatintranslator/issues"
+  },
+  "homepage": "https://github.com/ynikki/piglatintranslator#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
